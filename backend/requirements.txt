@@ -1,0 +1,43 @@
+# Django Core
+Django
+djangorestframework
+django-cors-headers
+django-filter
+python-decouple
+
+# Async Task Processing
+celery
+redis
+django-celery-results
+
+# Database
+# SQLite is built-in to Python/Django
+
+# Resume Parsing
+pdfplumber
+python-docx
+pytesseract
+Pillow
+pypdf
+
+# NLP & AI  (Python 3.13-safe — no spaCy, no compiler required)
+# NLTK: pure-Python tokenization, POS tagging, n-gram support
+nltk
+# NumPy 2.x has prebuilt Python 3.13 wheels
+numpy
+# scikit-learn 1.5+ ships Python 3.13 wheels
+scikit-learn
+# sentence-transformers 3.x works on Python 3.13 via PyTorch CPU wheels
+sentence-transformers
+
+# LLM (Groq)
+groq
+
+# Vector Search — 1.9.x has Python 3.13 wheels; gracefully skipped if missing
+faiss-cpu
+
+# Utilities
+chardet
+tqdm
+python-magic-bin; sys_platform == "win32"
+python-magic; sys_platform != "win32"

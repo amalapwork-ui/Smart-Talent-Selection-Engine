@@ -1,0 +1,174 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ============================================================
+# Virtual environments
+# ============================================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================================
+# Django
+# ============================================================
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/collected/
+local_settings.py
+
+# Migrations are tracked — do NOT add migrations/ here
+# (migrations are source code)
+
+# ============================================================
+# Environment & secrets — NEVER COMMIT THESE
+# ============================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# ============================================================
+# Node / Frontend
+# ============================================================
+node_modules/
+frontend/dist/
+frontend/build/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.pnpm-store/
+
+# ============================================================
+# Vite / Build artifacts
+# ============================================================
+dist/
+dist-ssr/
+*.local
+
+# ============================================================
+# Logs
+# ============================================================
+*.log
+logs/
+celerybeat-schedule
+celerybeat.pid
+
+# ============================================================
+# AI / ML artifacts
+# ============================================================
+faiss_index/
+embeddings/
+*.index
+*.faiss
+model_cache/
+.cache/
+torch_cache/
+sentence_transformers/
+*.pkl
+*.pickle
+*.h5
+*.pt
+*.bin
+*.safetensors
+
+# ============================================================
+# Uploaded / generated files
+# ============================================================
+backend/media/
+backend/faiss_index/
+*.pdf
+*.docx
+*.resume
+
+# ============================================================
+# Testing
+# ============================================================
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+.tox/
+.nox/
+
+# ============================================================
+# IDEs & editors
+# ============================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# ============================================================
+# OS files
+# ============================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ============================================================
+# Temporary files
+# ============================================================
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+tmp/
+temp/
+
+# ============================================================
+# Documentation build output
+# ============================================================
+docs/_build/
+site/
+
+# ============================================================
+# Windows batch artifacts (keep scripts, ignore generated output)
+# ============================================================
+*.bat.log
