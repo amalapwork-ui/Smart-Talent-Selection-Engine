@@ -172,3 +172,4 @@ site/
 # Windows batch artifacts (keep scripts, ignore generated output)
 # ============================================================
 *.bat.log
+AGENTS.md
